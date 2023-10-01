@@ -1,5 +1,5 @@
 # ERC20Token
-The MyERC20 project is a implementation of an ERC20 token on the Ethereum blockchain. The purpose of this project is to provide a simple and understandable example of how an ERC20 token can be implemented using Solidity, a programming language for Ethereum smart contracts.
+This project is a implementation of an ERC20 token on the Ethereum blockchain. The purpose of this project is to provide a simple and understandable example of how an ERC20 token can be implemented using Solidity, a programming language for Ethereum smart contracts.
 
 ## Description
 This project is a basic implementation of an ERC20 token using Solidity, a programming language for Ethereum smart contracts. The contract, named `MyERC20`, includes several state variables for token details and balances, a constructor for initialization, and an `onlyOwner` modifier for function restrictions.
