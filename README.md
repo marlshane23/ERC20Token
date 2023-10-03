@@ -35,6 +35,11 @@ contract MyERC20 is ERC20 {
     function burn(uint256 amount) public {
         _burn(msg.sender, amount);
     }
+
+    function transfer(address recipient, uint256 amount) override public returns (bool) {
+        _transfer(_msgSender(), recipient, amount);
+        return true;
+    }
 }
 ```
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.0", and then click on the "Compile MyERC20.sol" button.
